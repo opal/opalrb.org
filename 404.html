@@ -1,14 +1,16 @@
 ---
 permalink: /404.html
-redirect_to:
-  - https://opalrb.com
+<!-- redirect_to:
+  - https://opalrb.com -->
 ---
-
+<!doctype html>
 <html>
   <head>
-    <meta http-equiv="refresh" content="0; url=https://opalrb.com/" />
+    <meta charset="utf-8">
+    <title>Redirecting to opalrb.com</title>
+    <noscript><meta http-equiv="refresh" content="0; url=https://opalrb.com/" /></noscript>
   </head>
-  <body>
-    <a href="https://opalrb.com/">Redirecting to opalrb.com</a>
+  <body onload="window.location.href = window.location.href.replace('opalrb.org', 'opalrb.com')">
+    <a href="https://opalrb.com/">Redirecting to opalrb.com…</a>
   </body>
 </html>
